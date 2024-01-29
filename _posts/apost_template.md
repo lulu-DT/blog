@@ -19,10 +19,10 @@ keywords: none
 description: none
 top_img: url
 comments: 
-cover:
-toc:
-toc_number:
-toc_style_simple:
+cover: #文章封面
+toc: true
+toc_number: true
+toc_style_simple: true
 copyright:
 copyright_author:
 copyright_author_href:
@@ -31,7 +31,7 @@ copyright_info:
 mathjax:
 katex:
 aplayer:
-highlight_shrink:
+highlight_shrink: false
 aside:
 abcjs:
 
@@ -49,9 +49,9 @@ abcjs:
 |        top_img        |        （选填）顶部图片        |
 |         cover         |         （选填）缩略图         |
 |       comments        | （选填）文章评论模块，默认true |
-|          toc          |      （选填）显示文章toc       |
-|      toc_number       |     （选填）显示toc_number     |
-|   toc_style_simple    |    （选填）显示toc简洁模式     |
+|          toc          |      （选填）显示文章目录      |
+|      toc_number       |       （选填）显示章节数       |
+|   toc_style_simple    |    （选填）显示目录简洁模式    |
 |       copyright       |        （选填）复制权限        |
 |   copyright_author    |          （选填）作者          |
 | copyright_author_href |        （选填）作者链接        |
